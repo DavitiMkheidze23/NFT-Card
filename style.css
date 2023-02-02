@@ -1,0 +1,124 @@
+body {
+    background-color: #0d192c;
+  }
+  .Main_div {
+    width: 350px;
+    height: 596px;
+    background-color: #15263f;
+    border-radius: 15px;
+    padding: 24px;
+    margin: auto;
+  }
+  
+  .Equilibrium_Img {
+    max-width: 100%;
+    border-radius: 8px;
+    display: block;
+    cursor: pointer;
+
+  }
+  .Equilibrium {
+    color: white;
+    font-family: "Outfit";
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .Equilibrium:hover {
+    color: #00fff8;
+  }
+  .Info {
+    font-family: "Outfit";
+    font-style: normal;
+    color: #8bacd9;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+  }
+  .Eth {
+    color: #00fff8;
+    font-size: 16px;
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 600;
+    position: relative;
+  }
+  .Day {
+    color: #8bacd9;
+    font-family: "Outfit";
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+  }
+  .Avatar {
+    width: 33px;
+    height: 33px;
+    border: 1px solid white;
+    border-radius: 100%;
+  }
+  .Creation_Of {
+    color: #8bacd9;
+    font-size: 16px;
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 400;
+  }
+  .Name:hover {
+    color: #00fff8;
+  }
+  .Name {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Outfit";
+    font-style: normal;
+  }
+  .Avatar_Div {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  .Eth_Div{
+    display: inline-flex;
+    align-items: center;
+    gap: 6.48px;
+  }
+ .Clock_Div{
+  display: inline-flex;
+    align-items: center;
+    gap: 7.7px;
+ }
+ .Eth_Clock{
+  display: flex;
+  justify-content: space-between;
+ }
+  .Equilibrium_Div {
+  position: relative;
+  max-width: 100%;
+  background: #00FFF8;
+  border-radius: 8px;
+  }
+  .Equilibrium_Div:hover .Equilibrium_Img{
+    opacity: 0.5;
+  }
+  .Equilibrium_Div:hover .Overlay {
+  opacity: 1;
+  }
+  .Overlay {
+  opacity: 0;
+  transition: .3s ease;
+  }
+  .Eye {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+  }
+  hr {
+    height: 1px;
+    background-color: #2e405a;
+    border: none;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
